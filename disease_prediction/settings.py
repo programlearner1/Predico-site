@@ -129,3 +129,5 @@ STATICFILES_DIRS = [
 
     os.path.join(BASE_DIR,'templates')
 ]
+# Add this line to define where collected static files will be stored
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
